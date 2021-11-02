@@ -111,7 +111,7 @@ void Car::set()
 
 	cout << "Cities: ";
 	cin >> str;
-	getline(cin, str);
+	//getline(cin, str);
 	while (cin.fail()) {
 		cin.clear();
 		cin.ignore();
@@ -129,7 +129,7 @@ void Car::set()
 
 	cout << "Enter hours: ";
 	cin >> str;
-	getline(cin, str);
+	//getline(cin, str);
 	while (cin.fail()) {
 		cin.clear();
 		cin.ignore();

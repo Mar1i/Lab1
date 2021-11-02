@@ -30,6 +30,13 @@ int main()
         cout << "5. Выход\n";
         cout << "вы выбрали - ";
         cin >> i;
+        while (cin.fail()) {
+            cin.clear();
+            cin.ignore();
+
+            cout << "Enter int" << " - ";
+            cin >> i;
+        }
         switch (i)
         {
         case 1:
@@ -48,6 +55,14 @@ int main()
                 cout << "5. Выйти в меню\n";
                 cout << "вы выбрали - ";
                 cin >> j;
+
+                while (cin.fail()) {
+                    cin.clear();
+                    cin.ignore();
+
+                    cout << "Enter int" << " - ";
+                    cin >> j;
+                }
                 switch (j)
                 {
                 case 1:
@@ -81,6 +96,13 @@ int main()
                 cout << "5. Выйти в меню\n";
                 cout << "вы выбрали - ";
                 cin >> j;
+                while (cin.fail()) {
+                    cin.clear();
+                    cin.ignore();
+
+                    cout << "Enter int" << " - ";
+                    cin >> j;
+                }
                 switch (j)
                 {
                 case 1:
@@ -115,6 +137,13 @@ int main()
                 cout << "5. Выйти в меню\n";
                 cout << "вы выбрали - ";
                 cin >> j;
+                while (cin.fail()) {
+                    cin.clear();
+                    cin.ignore();
+
+                    cout << "Enter int" << " - ";
+                    cin >> j;
+                }
                 switch (j)
                 {
                 case 1:

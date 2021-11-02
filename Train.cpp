@@ -83,7 +83,7 @@ void Train::set()
 
 	cout << "Cities: ";
 	cin >> str;
-	getline(cin, str);
+	//getline(cin, str);
 	while (cin.fail()) {
 		cin.clear();
 		cin.ignore();
